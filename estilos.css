@@ -1,0 +1,104 @@
+* {
+    font-family: 'IBM Plex Serif', serif;;
+    color: black;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(168, 162, 162, 0.63);
+    margin: 2%;
+} 
+header{
+    margin-bottom: 2rem;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotomaxi{
+    border-radius: 100%;
+    height: 30%;
+    width: 30%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+
+}
+section{
+    float: left;
+    width: 40%;
+    border: rgb(37, 131, 148) solid 20px;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    float: left;
+    border-radius: 100%;
+    width: 5%;
+    margin-right: 5px;
+}
+h2{
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+#izquierda{
+    float: left;
+}
+.fotosArg{
+    border-radius: 10%;
+    width: 40%;
+    
+}
+.derecha{
+    float: right;
+}
+figure{
+    border: 0;
+    margin: 0;
+}
+#sinMargen{
+    margin-top: 0px;
+}
+a:hover{
+    color:crimson
+}
+h4{
+    font-size: 120%;
+}
+nav{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer{
+    width: 40%;
+    margin-right: 0;
+    margin-left: 30%;
+}
+
+@media(max-width:1000px){
+    figure{
+        width: 30%;
+        font-size: 70%;
+    }
+    body{
+        font-size: 80%;
+    }
+    .logo{
+        width: 20px;
+      
+   }
+   section{
+    width: 100%;
+    float: unset;
+    height: auto;
+}
+}
